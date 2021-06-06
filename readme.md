@@ -2,7 +2,7 @@
 ***Project in progress***
 
 Philharmonic website with database
-## Сreate a database
+## Сreated a database
 You can download the database from the link </br>
 [db.mwb](https://github.com/marina57678/coursework_database/blob/main/coursework.mwb)
 
