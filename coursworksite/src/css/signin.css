@@ -1,0 +1,208 @@
+*{
+	outline: none;
+}
+.form-sighin {
+	display: none;
+}
+.create-acc{
+	display: none;
+}
+.form-sighin__body{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	/* width:52%;
+	height: 36%; */
+	min-width: 465px;
+	min-height: 365px;
+	background: #e5e5e5b6;
+	border-radius: 100px;
+	padding: 20px;
+}
+.form-signin__label, .form-create__label{
+	text-align: start;
+	}
+	.signin-btn{
+		text-align: center;
+	}
+	.gotoCreateAcc{text-align: center;}
+	.linkCreate>a{
+		font-size: 20px;
+		text-decoration: none;
+		font-weight:400;
+		text-align: center;
+		
+	}
+.form-sighin__title{
+	font-size: 35px;
+	font-weight: 600;
+	width: 100%;
+	margin: 10px;
+	text-align: center;
+}
+.form-sighin__input, .form-create__input{background-color: #f0d9d9;
+	width: 90%;
+	padding: 5px;
+	padding-left: 17px;
+	border-radius: 20px;
+	border-color: #813636;
+	font-size: 20px;
+	transition: all 0.5s ease 0s;
+}
+.form-create__input:focus{
+	box-shadow: 0 0 15px rgb(110, 101, 101);
+}
+.form-sighin__input:focus{
+	box-shadow: 0 0 15px rgb(110, 101, 101);
+}
+.formRemember__input{
+	border: 20px;
+	zoom: 1.5;
+}
+#form-create-btn,.btn-signin{
+	font-size: 18px;
+	background: rgba(72, 207, 60, 0.54);
+	box-shadow: 0px 6px 4px rgba(57, 131, 51, 0.54) ;
+	border-radius: 100px;
+	color: whitesmoke;
+	padding: 10px 25px;
+	}
+#form-back-btn{
+	font-size: 18px;
+	background: rgba(207, 82, 60, 0.54);
+	box-shadow: 0px 6px 4px rgba(170, 60, 52, 0.54) ;
+	border-radius: 100px;
+	color: whitesmoke;
+	padding: 10px 25px;
+}
+.checkbox{
+	text-align: center;
+	padding-top: 10px;
+	margin-right: 40px;
+}
+.create-acc__active{
+display: flex;
+position: absolute;
+background-color:rgba(0, 0, 0, 0.651);
+width: 100%;
+height: 100vh;
+z-index: 1;
+display: flex;
+flex-grow: 1;
+justify-content: center;
+align-items:center;
+overflow-y: auto;
+}
+.form-create__body{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	/* width:52%;
+	height: 36%; */
+	min-width: 465px;
+	min-height: 365px;
+	background: #e5e5e5b6;
+	border-radius: 100px;
+	padding: 20px;
+}
+.form-create__body .signin-fixed{
+position: fixed;
+}
+.creatForm-button{ 
+	margin-top: 20px;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.linkCreate{	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+.form-sighin__item, .form-create__item{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+	text-align: start;
+	font-size: 24px;
+   line-height:28px;
+	color: rgba(0, 0, 0, 0.932);
+
+	padding: 10px;
+}
+.form-sighin__item{
+	width: 100%;
+}
+.form-sighin_active{
+	position: absolute;
+	background-color:rgba(0, 0, 0, 0.651);
+	width: 100%;
+	height: 100vh;
+z-index: 1;
+display: flex;
+flex-grow: 1;
+justify-content: center;
+align-items:center;
+overflow-y: auto;
+}
+
+
+.form-create__item ._error{
+	box-shadow: 0 0 20px red;
+}
+.form-sighinCheckbox__input._error{
+	box-shadow: 0 0 20px red;
+}
+.form__btnClose{
+	display: flex;
+	margin-top: -55px;
+	align-items: flex-end;
+}
+
+.form__buttonClose{
+	display: flex;
+	position: relative;
+	width: 27.34px;
+   height: 25.3px;
+	cursor: pointer;
+	border: 1px solid whitesmoke;
+	border-radius: 100px;
+	transition: all 0.4s ease 0s;
+}
+
+.form__buttonClose::before,
+.form__buttonClose::after{
+	transition: all 0.4s ease 0s;
+	position: absolute;
+	background-color: whitesmoke;
+	height: 3%;
+	width: 80%;
+	content: "";
+}
+.form__buttonClose::after{
+	top: 50%;
+	left: 20%;
+	transform: scale(1.1)  rotate(-45deg);
+}
+.form__buttonClose::before{
+	top: 50%;
+	left: 20%;
+	transform: scale(1.1) rotate(45deg);
+}
+._pc .form__buttonClose:hover::before{
+	transform: scale(1.1) rotate(45deg);
+	background-color:  rgb(21, 6, 26);
+}
+._pc .form__buttonClose:hover::after{
+		transform: scale(1.1) rotate(-45deg);
+		background-color: rgb(21, 6, 26);
+}
+._pc 	.form__buttonClose:hover{
+	border: 1px solid rgb(21, 6, 26) ;
+}

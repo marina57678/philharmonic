@@ -1,0 +1,36 @@
+/* .artist-cards__container{
+	display: flex;
+		flex-wrap:wrap;
+		/* width: 100vw; 
+		min-height: 110vh;
+		max-height: 100%;
+		justify-content: space-around;
+		flex-basis:auto;
+		white-space: pre-wrap;
+		
+}
+.artist-card__body{
+	width: 500px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: rgb(185, 84, 84);
+}
+.artist-cards__body-item-img	{
+	width: 95%;
+		min-width: 400px;
+		margin: 0 auto auto;
+		height: 95%;
+		min-height: 350px;
+	background-image: url(/coursworksite/src/img/mainphoto1750x775.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size:  cover;
+	-o-background-size: cover;
+	background-size: cover;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.artist-cards__body-item-text{
+
+} */

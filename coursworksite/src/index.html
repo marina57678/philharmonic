@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Music</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="/coursworksite/src/css/header.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/fullScreen.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/signin.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/aboutus.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/artistcards.css">
+</head>
+
+<body class="mainpage" id="mainpage">
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="burger__body">
+						<div class="logo">
+							<a href="" class="logo">
+								<div class="logo__letter logo1"><img src="/coursworksite/src/img/M.png" alt=""></div>
+								<div class="logo__letter logo2"><img src="/coursworksite/src/img/u.png" alt=""></div>
+								<div class="logo__letter logo1"><img src="/coursworksite/src/img/s.png" alt=""></div>
+								<div class="logo__letter logo2"><img src="/coursworksite/src/img/i.png" alt=""></div>
+								<div class="logo__letter logo2"><img src="/coursworksite/src/img/c.png" alt=""></div>
+							</a>
+						</div>
+						<div class="burger__menu"><span></span></div>
+					</div>
+					<nav class="header_nav">
+						<li class="header__list"><a href="#" class="header_link">Events</a></li>
+						<li class="header__list"><a class="header_link" href="#">Artists</a></li>
+						<li class="header__list"><a class="header_link" href="#">Place</a></li>
+						<li class="header__list"><a class="header_link" href="">Impressionio</a></li>
+						<div class="header__about">
+							<li class="header__list about "><a class="header_link header_link__about" href="http://127.0.0.1:5500/coursworksite/src/aboutUs.html">About</a></li>
+							<li class="header__list Us"><a class="header_link header_link__us" href="">Us</a></li>
+						</div>
+						<li class="header__list header__list-signin"> <button class="signin">Sign in</button></li>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="signinForm">
+				<div class="form-sighin">	
+					<form action="#" id="sighin-form" class="form-sighin__body">
+						<div class="sign_body"> 
+							<div class="form-sighin__item"><div class="form-sighin__title">Sign in</div></div>
+							<div class="form-sighin__item form__btnClose">
+								<div class="form__buttonClose"><span></span></div>
+							</div>
+							<div class="form-sighin__item">
+								<label class="form-sighin__label" for="form-sighinLogin">Login</label>
+								<input id="form-sighinLogin" placeholder="login" type="text" name="login" 
+								class="form-sighin__input _req">
+							</div>
+							<div class="form-sighin__item">
+								<label class="form-sighin__label" for="form-sighinPassword">Password</label>
+								<input id="form-sighinPassword" placeholder="password" type="password" name="password" 
+								class="form-sighin__input _req">
+							</div>
+							<div class="form-sighin__item">
+								<div class="checkbox">
+									<input name="remeber" type="checkbox" id="formRemember" class="formRemember__input _req">
+									<label class="formRemember__label" for="formRemember"> <span> remeber password </span></label>
+								</div>
+							</div>
+							<div class="form-sighin__item">
+								<div class="gotoCreateAcc">
+									<label class="linkCreate" for="form-create"> <span  class="linkCreate"> <a href="#">Create an account</a></span></label>
+								</div>
+							</div>
+							<div class="signin-btn">
+								<!-- <input name="btn-signin" type="submit" id="btn-signinr" class="btn-signin _req">
+								<label class="form-sighin__input" for="btn-signinr"> <span>  </span></label> -->
+								<button name="btn-signin" type="submit" id="btn-signinr" class="btn-signin _req">Sign in</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="create-acc">
+					<form action="#" id="form-create" class="form-create__body" method="post">
+						<div class="form-sighin__item"><div class="form-sighin__title">Sign up</div></div>
+						<div class="form-sighin__item form__btnClose">
+							<div class="form__buttonClose"><span></span>
+							</div>
+						</div>
+							<!-- <div class="form-sighin__containerforbutton">
+							<div class="form-sighin__title">Купить программу</div>
+							<div class="form-sighin__buttonClose"><span></span></div>
+							</div> -->
+						<div class="form-create__item" id="createAccountForm">
+							<label class="form-create__label" for="form-createName">full name*</label>
+							<input id="form-createName" placeholder="Имя Фамилия" type="text" name="name"
+								class="form-create__input _req">
+						</div>
+						<div class="form-create__item">
+							<label class="form-create__label" for="">Phone number*</label>
+							<input id="form-createPhone" type="tel" placeholder="Phone number" name="phone"
+								class="form-create__input _req">
+						</div>
+						<div class="form-create__item">
+							<label class="form-create__label" for="form-createEmail">E-mail*</label>
+							<input id="form-createEmail" type="text" name="email" placeholder="E-mail"
+								class="form-create__input _req _email">
+						</div>
+						<div class="form-create__item">
+							<label class="form-create__label" for="form-createLogin">Login*</label>
+							<input id="form-createLogin" placeholder="login" type="text" name="name"
+							class="form-create__input _req">
+						</div>
+						<div class="form-create__item">
+							<label class="form-create__label" for="form-createPass">Password*</label>
+							<input id="form-createPass" placeholder="password" type="password" name="pass"
+							class="form-create__input _req">
+						</div>
+						<div class="form-create__item ">
+							<div class="checkbox">
+								<input name="remeber" type="checkbox" id="formRemember" class="form-sighinCheckbox__input _req">
+								<label class="form-sighinCheckbox__label" for="formRemember"> <span> remeber password </span></label>
+							</div>
+						</div>
+						<div class="creatForm-button">
+							<button type="button" class="form-back-btn" id="form-back-btn">Back</button>
+							<button type="submit" class="form-create-btn" id="form-create-btn">Create</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="full-screen">
+				<div class="full-screen__body">
+					<div class="full-screen__text">
+						<div class="full-screen__item">
+							<div class="full-screen__item__body">
+								<div class="full-screen__item__home"><a class="full-screen__item_list" href="http://127.0.0.1:5501/coursworksite/src/aboutUs.html">Home</a></div>
+								<div class="full-screen__item__body_span"><span></span></div>
+								<div class="full-screen__item__concert"><a class="full-screen__item_list" href="">Concert</a></div>
+							</div>
+						</div>
+						<div class="full-screen__title">Concerts in Kyiv</div>
+						<div class="full-screen__item">only positive vibes</div>
+					</div>
+				</div>
+			</div>
+			<div class="full-screen__img full-screen__img-mainpage"></div>
+			<section class="genres-section">
+				<div class="genres-container">
+					<div class="genres__text-body">
+						<div class="genres__title">Genres</div>
+					</div>
+				</div>
+			</section>
+			<section class=artist>
+
+				<div class="artist-cards__container cards__container">
+
+				</div>
+
+				
+
+						<!-- <div class="artist-card__container">
+								<div class="artist-card__body">
+									<div class="artist-card__body-box-img">
+										<div class="artist-cards__body-item-img">		
+										</div>
+									</div>
+									<div class="artist-cards__body-item-text">
+										<p>hi</p>	
+										<p>hi</p>
+										<p>Ip</p>	
+									</div>
+								</div>
+							</div> -->
+							<!-- <div class="artist-card__container">
+								<div class="artist-card__body">
+									<div class="artist-card__body-box-img">
+										<div class="artist-cards__body-item-img">		
+										</div>
+									</div>
+									<div class="artist-cards__body-item-text">
+										<p>hi</p>	
+										<p>hi</p>
+										<p>Ip</p>	
+									</div>
+								</div>
+							</div>  -->
+						<!-- <div class="artist-card__container">
+								<div class="artist-card__body">
+									<div class="artist-card__body-box-img">
+										<div class="artist-cards__body-item-img">		
+										</div>
+									</div>
+									<div class="artist-cards__body-item-text">
+										hi		Ipsum proident proident occaecat aliquip tempor magna dolore occaecat in occaecat exercitation dolore. Ex tempor excepteur sit et cillum officia in. Est pariatur eiusmod magna anim consectetur in elit aliqua commodo Lorem ex ut eiusmod id.
+
+										Et exercitation minim nisi consectetur ea eu labore aliquip in qui cillum in. Ea Lorem quis velit veniam. Non ipsum est consectetur tempor ea eiusmod culpa nisi cupidatat. Non sit incididunt dolore deserunt non Lorem labore fugiat elit eu Lorem esse. Pariatur mollit dolore adipisicing irure sunt cillum ullamco nisi consequat consequat ad.
+						
+										Ullamco mollit dolore adipisicing id anim sint. In mollit et consequat duis duis cupidatat. Fugiat aliquip consectetur commodo consectetur officia in minim deserunt incididunt irure. Aliqua sit ullamco est amet aute adipisicing sint sit officia ea reprehenderit ea dolor.
+						
+										Aliquip cupidatat ex magna
+									</div>
+								</div>
+							</div> -->						
+							<!-- ! для сайта веба  -->
+							<!-- <div class="artist-card__container">
+								<div class="artist-card__body">
+									<div class="artist-cards__body-item-img">		
+									</div>
+									<div class="artist-cards__body-item-text">
+										hi		
+									</div>
+								</div>
+							</div> -->
+							
+							<!-- <div class="artist-cards__body">
+								<div class="artist-cards__body-item">
+									
+								</div>
+							</div>
+							<div class="artist-cards__body"> 
+								<div class="artist-cards__body-item">
+									
+								</div>
+							</div>	
+							<div class="artist-cards__body"> 
+								<div class="artist-cards__body-item">
+									
+								</div>
+							</div>
+							<div class="artist-cards__body"> 
+								<div class="artist-cards__body-item">
+								</div>
+							</div>
+							<div class="artist-cards__body"> 
+								<div class="artist-cards__body-item">
+									
+								</div>
+								</div>
+							</div> -->
+					</section>		
+		</main>
+	</div>
+	<script src="js/getOrg.js"></script>
+	<script src="js/artistCard.js"></script>
+	<script src="js/isMobile.js"></script>
+	<script src="js/burger.js"></script>
+	<script src="js/Events.js"></script>
+	<script src="js/signinForm.js"></script>
+</body>
+
+</html>

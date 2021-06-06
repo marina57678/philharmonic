@@ -1,0 +1,89 @@
+	.artist{
+		height: 100%;
+	}
+	body{
+		margin 0;
+	}
+	* {
+		box-sizing: border-box;
+	}
+	.artist-cards__container{
+		display: flex;
+		flex-wrap:wrap;
+		/* width: 100vw; */
+		min-height: 110vh;
+		max-height: 100%;
+		justify-content: space-around;
+		flex-basis:auto;
+		white-space: pre-wrap;	
+	}
+
+
+.aristText{
+	font-size: 20px;
+}
+.artist-body-item-text{
+	padding: 20px;
+}
+	.artist-cards__body{
+		width: 500px;
+		margin: 7px;
+		width:50%;
+		min-width: 400px;
+		perspective: 10000px;
+	}
+
+
+.artist-card__container{
+	margin-bottom: 20px;
+	width: 500px;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-self:flex-start;
+	align-items:center
+}
+
+.artist-card__body{
+	width: 500px;
+	height: 350px;
+	display: flex;
+	/* margin: 7px;
+	width:30%;
+	min-width: 430px;
+	min-height: 360px;
+	height: 40%; */
+	flex-direction: column;
+	justify-content: space-around;
+	perspective: 10000px;
+	transform-style: preserve-3d;
+}
+.artist-cards__body-item-img	{
+		width: 100%;
+		min-width: 400px;
+		margin: 0 auto auto;
+		height: 100%;
+		min-height: 350px;
+		background-image:
+		url(https://mvclip.ru/content/images/artists/3/9ff5c15956bf42359f3da1b73504b3b0.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size:  cover;
+		-o-background-size: cover;
+		background-size: cover;
+		transition: transform 0.2s;
+	}
+
+.artist-cards__body-item-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+		margin: 7px;
+		width:50%;
+		min-width: 400px;
+		font-family: 'Roboto', sans-serif;
+font-style:normal;
+font-weight: bold;   
+}
+

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AboutUs</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="/coursworksite/src/css/header.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/fullScreen.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/aboutus.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/signin.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/artistcards.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/cards.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/org.css">
+	<link rel="stylesheet" href="/coursworksite/src/css/events.css">
+	<!-- <link rel="stylesheet" href="/coursworksite/src/css/eventsInfoBlock.css"> -->
+	
+<body class="aboutus-page" id="aboutus-page">
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="burger__body">
+						<div class="logo">
+							<a href="" class="logo">
+								<div class="logo__letter logo1"><img src="/coursworksite/src/img/M.png" alt=""></div>
+								<div class="logo__letter logo2"><img src="/coursworksite/src/img/u.png" alt=""></div>
+								<div class="logo__letter logo1"><img src="/coursworksite/src/img/s.png" alt=""></div>
+								<div class="logo__letter logo2"><img src="/coursworksite/src/img/i.png" alt=""></div>
+								<div class="logo__letter logo2"><img src="/coursworksite/src/img/c.png" alt=""></div>
+							</a>
+						</div>
+						<div class="burger__menu"><span></span></div>
+					</div>
+					<nav class="header_nav">
+						<li class="header__list"><a href="#" class="header_link">Events</a></li>
+						<li class="header__list"><a class="header_link" href="#">Events</a></li>
+						<li class="header__list"><a class="header_link" href="#">Place</a></li>
+						<li class="header__list"><a class="header_link" href="">Impressionio</a></li>
+						<div class="header__about">
+							<li class="header__list about"><a class="header_link header_link__about" href="http://127.0.0.1:5500/coursworksite/src/aboutUs.html#">About</a></li>
+							<li class="header__list Us"><a class="header_link header_link__us" href="http://127.0.0.1:5500/coursworksite/src/aboutUs.html#">Us</a></li>
+						</div>
+						<li class="header__list header__list-signin"> <button class="signin">Sign in</button></li>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<div class="signinForm">
+			<div class="form-sighin">	
+				<form action="#" id="sighin-form" class="form-sighin__body">
+					<div class="sign_body"> 
+						<div class="form-sighin__item"><div class="form-sighin__title">Sign in</div></div>
+						<div class="form-sighin__item form__btnClose">
+							<div class="form__buttonClose"><span></span></div>
+						</div>
+						<div class="form-sighin__item">
+							<label class="form-sighin__label" for="form-sighinLogin">Login</label>
+							<input id="form-sighinLogin" placeholder="login" type="text" name="login" 
+							class="form-sighin__input _req">
+						</div>
+						<div class="form-sighin__item">
+							<label class="form-sighin__label" for="form-sighinPassword">Password</label>
+							<input id="form-sighinPassword" placeholder="password" type="password" name="password" 
+							class="form-sighin__input _req">
+						</div>
+						<div class="form-sighin__item">
+							<div class="checkbox">
+								<input name="remeber" type="checkbox" id="formRemember" class="formRemember__input _req">
+								<label class="formRemember__label" for="formRemember"> <span> remeber password </span></label>
+							</div>
+						</div>
+						<div class="form-sighin__item">
+							<div class="gotoCreateAcc">
+								<label class="linkCreate" for="form-create"> <span  class="linkCreate"> <a href="#">Create an account</a></span></label>
+							</div>
+						</div>
+						<div class="signin-btn">
+							<!-- <input name="btn-signin" type="submit" id="btn-signinr" class="btn-signin _req">
+							<label class="form-sighin__input" for="btn-signinr"> <span>  </span></label> -->
+							<button name="btn-signin" type="submit" id="btn-signinr" class="btn-signin _req">Sign in</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="create-acc">
+				<form action="#" id="form-create" class="form-create__body" method="post">
+					<div class="form-sighin__item"><div class="form-sighin__title">Sign up</div></div>
+					<div class="form-sighin__item form__btnClose">
+						<div class="form__buttonClose"><span></span>
+						</div>
+					</div>
+						<!-- <div class="form-sighin__containerforbutton">
+						<div class="form-sighin__title">Купить программу</div>
+						<div class="form-sighin__buttonClose"><span></span></div>
+						</div> -->
+					<div class="form-create__item" id="createAccountForm">
+						<label class="form-create__label" for="form-createName">full name*</label>
+						<input id="form-createName" placeholder="Имя Фамилия" type="text" name="name"
+							class="form-create__input _req">
+					</div>
+					<div class="form-create__item">
+						<label class="form-create__label" for="">Phone number*</label>
+						<input id="form-createPhone" type="tel" placeholder="Phone number" name="phone"
+							class="form-create__input _req">
+					</div>
+					<div class="form-create__item">
+						<label class="form-create__label" for="form-createEmail">E-mail*</label>
+						<input id="form-createEmail" type="text" name="email" placeholder="E-mail"
+							class="form-create__input _req _email">
+					</div>
+					<div class="form-create__item">
+						<label class="form-create__label" for="form-createLogin">Login*</label>
+						<input id="form-createLogin" placeholder="login" type="text" name="name"
+						class="form-create__input _req">
+					</div>
+					<div class="form-create__item">
+						<label class="form-create__label" for="form-createPass">Password*</label>
+						<input id="form-createPass" placeholder="password" type="password" name="pass"
+						class="form-create__input _req">
+					</div>
+					<div class="form-create__item ">
+						<div class="checkbox">
+							<input name="remeber" type="checkbox" id="formRemember" class="form-sighinCheckbox__input _req">
+							<label class="form-sighinCheckbox__label" for="formRemember"> <span> remeber password </span></label>
+						</div>
+					</div>
+					<div class="creatForm-button">
+						<button type="button" class="form-back-btn" id="form-back-btn">Back</button>
+						<button type="submit" class="form-create-btn" id="form-create-btn">Create</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<main class="mainpage_aboutUs">
+			<div class="full-screen">
+				<div class="full-screen__body">
+					<div class="full-screen__text">
+						<div class="full-screen__item">
+							<div class="full-screen__item__body">
+								<div class="full-screen__item__home"><a class="full-screen__item_list full-screen__item_home" href="http://127.0.0.1:5501/coursworksite/src/index.html#">Home</a></div>
+								<div class="full-screen__item__body_span"><span></span></div>
+								<div class="full-screen__item__concert"><a class="full-screen__item_list" href="http://127.0.0.1:5501/coursworksite/src/aboutUs.html">Concert</a></div>						</div>
+						</div>
+						<div class="full-screen__title">Concerts in Kyiv</div>
+						<div class="full-screen__item">only positive vibes</div>
+					</div>
+				</div>
+			</div>
+			<div class="full-screen__img full-screen__img-aboutus">
+			</div>
+
+
+			<div class=maintextblock>
+				<div class="org-block">
+					<div class= info-org__container >
+						<div class="info-org__body-item-text body-item-text">
+							Our experienced and fun organizers
+						</div>
+					</div>
+						<div class="org-cards__container cards__container">
+						</div>	
+					</div>
+				</div>	
+			</div>
+			<div class="events-block">
+				<div class= info-events__container >
+					<div class="info-org__body-item-text body-item-text info-events__body-text">
+						<span id="events-all" class="info-events__body-title">Events</span>
+					</div>
+				</div>	
+				<div class="info-events__body-table">
+				</div>
+				<div class="eventInfo-tables__container">
+						<!-- ?exapmle -->
+						<!-- <tr id="ourevent-row-"+ourevents[ourevent].eventId">
+							<td class="'eventInfo-table-item">eventId 1</td>
+							<td class="'eventInfo-table-item">eventName 2</td>
+							<td class="'eventInfo-table-item">dateOfEvent 3</td>
+						</tr> -->
+				</div>
+				
+				<div class="create-event">
+					<form action="#" id="form-create-event" class="form-create-event__body" method="post">
+						<div class="form-create-event__item"><div class="form-create__title">
+							Add new event
+						</div></div>
+							<div class="form-event__item form-event_btnClose">
+								<div class="form-event__buttonClose"><span></span></div>
+							</div>
+							<div class="form-create__item" id="createAccountForm">
+								<label class="form-create-org__label" for="form-create-org">event name*</label>
+								<input id="form-create-eventName" placeholder="name" type="text" name="name"
+								class="form-create-org__input _reqAdd" >
+							</div>
+							<div class="form-create__item">
+								<label class=" form-create-org__label form-create-organizerName" for="form-create-org">organizer*</label>
+								<select name="" class="select-org select-view" id="form-create-organizerId">
+
+								</select>
+							</div>
+							<div class="form-create__item">
+								<label class="form-create-org__label" for="form-create-org">date of event*</label>
+								<input id="form-create-dateOfEvent" placeholder="date" type="text" name="date"
+								class="form-create-org__input _reqAdd" >
+							</div>
+							<div class="form-create__item">
+								<label class="form-create-org__label" for="form-create-org">type of event*</label>
+								<select name="" class="select-typeofevent select-view" id="form-create-idTypeOfEvent">
+
+								</select>
+							</div>
+							<div class="form-create__item">
+								<label class="form-create-org__label" for="form-create-org">Building*</label>
+								<select name="" class="select-building select-view" id="form-create-buildingId">
+
+								</select>
+							</div>
+							<div class="form-create-event__item">						
+								<div class="create-event-button">
+									<button type="button" class="form-event-close-btn btnforAdd" id="form-event-close-btn">Close</button>
+									<button type="submit" class="form-create-event-btn btnforAdd" id="form-event-add-btn">Add</button>
+								</div>
+							</div>
+					</form>
+				</div>
+				<div class="delete-event always-hidden">
+					<form action="#" id="form-delete-event" class="form-delete-event__body" method="delete">
+						<div class="form-create-event__item"><div class="form-create__title">
+							Delete event
+						</div></div>
+							<div class="form-event__item form-event_btnClose">
+								<div class="form-event__buttonClose"><span></span></div>
+							</div>
+							<div class="form-create__item">
+								<label class="form-delete-org__label" for="form-delete-org">Event Id*</label>
+								<select name="" class="select-eventId select-view" id="form-delete-eventId">
+								</select>
+							</div>
+							<div class="form-create-event__item">						
+								<div class="delete-event-button">
+									<button type="button" class="form-del-event-close-btn btnforAdd" id="form-event-del-close-btn">Close</button>
+									<button type="button" class="form-delete-event-btn btnforAdd" id="form-event-delete-btn">Delete</button>
+								</div>
+							</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="organizers organizers-all__container">			
+				</div>
+			</div>
+				<section class="part-artist">
+					<div class="info-artist__body-text body-item-text">
+						<span id="artisrs-all" class="info-artists__body-title">Artist</span>
+						<div class="artist-cards__container"></div>
+					</div>
+				</section>
+			</div>
+		</div>
+		</main>
+	</div>
+	<script src="js/getOrg.js"></script>
+	<script src="js/artistCard.js"></script>
+	<script src="js/isMobile.js"></script>
+	<script src="js/burger.js"></script>
+	<!-- <script src="js/testbend.js"></script> -->
+	<!-- <script src="js/aboutuscss.js"></script> -->
+	<script src="js/signinForm.js"></script>
+</body>
+</html>

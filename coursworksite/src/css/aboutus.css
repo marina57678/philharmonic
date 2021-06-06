@@ -1,0 +1,40 @@
+.organizers {
+	z-index: 1;
+}
+.organizers-all,.artists-all__container{
+	background-color: #C4C4C4;
+	display: none;
+	font-size: 20px;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	border-radius:0px;
+	border-spacing:0;
+	/* box-shadow: 0 0 15px 15px rgb(35, 28, 41); */
+margin-top: 20px;
+margin-left: 20px;
+transition: all 0.4s ease 0.0s;
+
+}
+.allOrganizer-all_active,.artists-all__active{
+	display: table;
+}
+.organizers__item,.artists__item{
+	padding: 10px;
+}
+.organizers__item-tr{
+	background-color: rgb(35, 35, 41);
+	
+}
+.organizers-withevents{
+	background-color: #C4C4C4;
+	display: none;
+}
+.organizers-withevents_active{
+	display: table;
+	margin-top: 20px;
+margin-left: 20px;
+font-size: 20px;
+border-radius:0px;
+border-spacing:0;
+}

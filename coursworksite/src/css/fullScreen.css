@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.mainpage_aboutUs{
+	display: block;	
+}
+/* .mainpage { 
+	background-color: blue;
+} */
+.aboutus-page{
+	margin: 0;
+	background-color:rgba(236, 229, 235, 0.849); 
+}
+.full-screen{
+   position: absolute;
+   top: 0;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+	justify-content: center;
+   height:  100vh;
+	width: 100%;
+	z-index: 1;
+
+}
+.full-screen__img{
+	position:relative;
+	top:0;
+	height:  100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.full-screen__img-mainpage{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(/coursworksite/src/img/mainphoto1750x775.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size:  cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.full-screen__img-aboutus{	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+	url(/coursworksite/src/img/aboutus-mainphoto.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size:  cover;
+	-o-background-size: cover;
+	background-size: cover;}
+.full-screen__text{
+	font-family: 'Roboto', sans-serif;
+	font-style:normal;
+	font-weight: bold;   
+}
+.full-screen__item__body{    position: relative;  
+   display: flex;
+	align-items:flex-start;
+	justify-content: center;
+}
+
+.full-screen__item__body_span span,.full-screen__item__body_span::before,
+.full-screen__item__body_span::after{
+   position: absolute;    
+	width: 2px;
+	height: 40px;
+   bottom: -6px;
+	background-color: whitesmoke;
+	margin-left: 10px;
+}
+.full-screen__item__body:hover span{
+   bottom: 4px;
+   transition: all 1.0s ease 0s;
+}
+.full-screen__item_list:hover {
+color: red;
+   transition: all 0.6s ease 0s;
+}
+.full-screen__item{
+	color:red;
+}
+.full-screen__item_list{
+	text-decoration: none;
+	color:black;
+}
+.full-screen__item__concert{
+	margin-left: 20px;
+}
+.full-screen__title{
+   font-size: 64px;
+   color:#DFDFDF;
+}
+.full-screen__item{
+   font-size: 24px;
+}
+
+.full-screen__text_active{
+	z-index: 0;
+}
+.full-screen__item_home{
+	color:rgb(168, 168, 168);
+}
