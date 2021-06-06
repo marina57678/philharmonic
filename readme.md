@@ -20,3 +20,6 @@ here is a link  to the branch with [site ( html+css+js)](https://github.com/mari
 
 ## Java
 here is a link  to the branch with [Java code](https://github.com/marina57678/coursework_database/tree/main/main/java/kpi/iasa/marinahw)
+
+### soon new design 
+![newDesignSoon](https://user-images.githubusercontent.com/80823792/120929982-fc77e300-c6f3-11eb-82b2-b552284ac35f.png)
